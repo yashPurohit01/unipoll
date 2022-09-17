@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaLinkedin , FaFacebookSquare, FaGithub, FaInstagram} from 'react-icons/fa'
 function Footer() {
-    const date = new Date()
   return (
     <div className='p-5 text-center flex flex-col gap-3 border-2 rounded-lg m-2 bg-stone-200 dark:text-slate-800 border-primaryShadow mt-0 '>
         <div className='flex flex-col gap-3 border-b-2 pb-3 border-slate-300'>
